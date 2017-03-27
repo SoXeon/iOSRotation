@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E270ABA41E83ADEB001E5054 /* PortraitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E270ABA31E83ADEB001E5054 /* PortraitViewController.m */; };
 		E27DE9E61E82A0A30099DBCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E27DE9E51E82A0A30099DBCA /* main.m */; };
 		E27DE9E91E82A0A30099DBCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E27DE9E81E82A0A30099DBCA /* AppDelegate.m */; };
 		E27DE9EC1E82A0A30099DBCA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27DE9EB1E82A0A30099DBCA /* FirstViewController.m */; };
@@ -14,9 +15,14 @@
 		E27DE9F21E82A0A30099DBCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27DE9F01E82A0A30099DBCA /* Main.storyboard */; };
 		E27DE9F41E82A0A30099DBCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E27DE9F31E82A0A30099DBCA /* Assets.xcassets */; };
 		E27DE9F71E82A0A30099DBCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27DE9F51E82A0A30099DBCA /* LaunchScreen.storyboard */; };
+		E27DEA001E8374020099DBCA /* LandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27DE9FF1E8374020099DBCA /* LandscapeViewController.m */; };
+		E27DEA031E8379FE0099DBCA /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27DEA021E8379FE0099DBCA /* TabBarViewController.m */; };
+		E27DEA061E837A3D0099DBCA /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27DEA051E837A3D0099DBCA /* NavViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E270ABA21E83ADEB001E5054 /* PortraitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortraitViewController.h; sourceTree = "<group>"; };
+		E270ABA31E83ADEB001E5054 /* PortraitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortraitViewController.m; sourceTree = "<group>"; };
 		E27DE9E11E82A0A30099DBCA /* iOSRotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSRotation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E27DE9E51E82A0A30099DBCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E27DE9E71E82A0A30099DBCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,6 +35,12 @@
 		E27DE9F31E82A0A30099DBCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E27DE9F61E82A0A30099DBCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E27DE9F81E82A0A30099DBCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E27DE9FE1E8374020099DBCA /* LandscapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandscapeViewController.h; sourceTree = "<group>"; };
+		E27DE9FF1E8374020099DBCA /* LandscapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandscapeViewController.m; sourceTree = "<group>"; };
+		E27DEA011E8379FE0099DBCA /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		E27DEA021E8379FE0099DBCA /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		E27DEA041E837A3D0099DBCA /* NavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavViewController.h; sourceTree = "<group>"; };
+		E27DEA051E837A3D0099DBCA /* NavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +79,14 @@
 				E27DE9EB1E82A0A30099DBCA /* FirstViewController.m */,
 				E27DE9ED1E82A0A30099DBCA /* SecondViewController.h */,
 				E27DE9EE1E82A0A30099DBCA /* SecondViewController.m */,
+				E27DE9FE1E8374020099DBCA /* LandscapeViewController.h */,
+				E27DE9FF1E8374020099DBCA /* LandscapeViewController.m */,
+				E270ABA21E83ADEB001E5054 /* PortraitViewController.h */,
+				E270ABA31E83ADEB001E5054 /* PortraitViewController.m */,
+				E27DEA011E8379FE0099DBCA /* TabBarViewController.h */,
+				E27DEA021E8379FE0099DBCA /* TabBarViewController.m */,
+				E27DEA041E837A3D0099DBCA /* NavViewController.h */,
+				E27DEA051E837A3D0099DBCA /* NavViewController.m */,
 				E27DE9F01E82A0A30099DBCA /* Main.storyboard */,
 				E27DE9F31E82A0A30099DBCA /* Assets.xcassets */,
 				E27DE9F51E82A0A30099DBCA /* LaunchScreen.storyboard */,
@@ -156,10 +176,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E27DEA001E8374020099DBCA /* LandscapeViewController.m in Sources */,
 				E27DE9EF1E82A0A30099DBCA /* SecondViewController.m in Sources */,
 				E27DE9E91E82A0A30099DBCA /* AppDelegate.m in Sources */,
 				E27DE9EC1E82A0A30099DBCA /* FirstViewController.m in Sources */,
+				E27DEA031E8379FE0099DBCA /* TabBarViewController.m in Sources */,
 				E27DE9E61E82A0A30099DBCA /* main.m in Sources */,
+				E27DEA061E837A3D0099DBCA /* NavViewController.m in Sources */,
+				E270ABA41E83ADEB001E5054 /* PortraitViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +342,7 @@
 				E27DE9FD1E82A0A30099DBCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

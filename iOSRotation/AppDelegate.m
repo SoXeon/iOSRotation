@@ -14,9 +14,21 @@
 
 @implementation AppDelegate
 
+- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(nullable NSDictionary *)launchOptions
+{
+    return YES;
+}
+
+- (void)setWindow:(UIWindow *)window
+{
+    [UIApplication sharedApplication].statusBarOrientation = UIInterfaceOrientationPortrait;
+    _window = window;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+
     return YES;
 }
 
